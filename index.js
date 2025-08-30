@@ -8,6 +8,7 @@ import categoryRoute from "./Src/Routes/category.routes.js";
 
 dotenv.config();
 
+
 const app = express();
 connectDb();
 app.use(cors("*"));
