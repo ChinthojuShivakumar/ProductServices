@@ -18,7 +18,10 @@ const productSchema = new mongoose.Schema(
         },
       },
     ],
-
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+    },
     description: {
       type: String,
       required: true,
